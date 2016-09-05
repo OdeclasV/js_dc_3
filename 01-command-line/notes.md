@@ -1,9 +1,9 @@
 --------- Insert Notes ---------
 
 1. Useful commands from "Git assignment": 
-- git log --summary (summary of commits and changes)
-- git -u origin master (-u tells git to continue using "origin and master")
-- git diff HEAD (*diff* shows changes from last commit, *HEAD* selects most recent commit)
+-git log --summary (summary of commits and changes)
+-git -u origin master (-u tells git to continue using "origin and master")
+-git diff HEAD (*diff* shows changes from last commit, *HEAD* selects most recent commit)
 
 
 
