@@ -26,7 +26,8 @@ parseInt()
 var myOnlyFriends = ['moe', 'larry', 'jack'];  
 myOnlyFriends.pop() = prints last element of the array (and deletes it from the same array)  
 myOnlyFriends.shift() = print first element of the arrary (and deletes it form the same array)  
-myOnlyFriends.push() = adds an element to the array  
+myOnlyFriends.push() = adds an element to the array   
+myOnlyFriends.join() = adds elements to the array. It can: 1) specify what element has to be deleted, or 2) delete 0 elements but add one. Useful to join elements in array, ie to form sentences.
 
 
 --------- FIN ---------

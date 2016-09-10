@@ -3,7 +3,7 @@
  * Create an empty array and store it in a variable named code.
  */
 
- // Your code here
+var code = [];
 
  /**
   * Question 2
@@ -13,7 +13,7 @@
   * 'o', 'm', 'c'
   */
 
-// Your code here
+code.push('x', 'u', 's', 'a', 'e', 'l', 'p', 'e', 'e', 'n','i', 't', 'l', 'a', 'v', 'o', 'x', 'e', 'r','o', 'm', 'c');
 
 /**
  * Question 3
@@ -21,14 +21,15 @@
  * Hint: You may need to look up a method we haven't talked about.
  */
 
-// Your code here
+code.pop();
+code.shift();
 
 /**
  * Question 4
  * Reverse the array.
  */
 
-// Your code here
+code.reverse();
 
 /**
  * Question 5
@@ -36,7 +37,7 @@
  * Hint: Use length
  */
 
-// Your code here
+code[code.length -1 ] = 'e'
 
 /**
  * Question 6
@@ -44,7 +45,8 @@
  * Hint: remember indexes start at 0!
  */
 
-// Your code here
+code[4] = ' ';
+code[13] = ' ';
 
 /**
  * Question 7
@@ -52,4 +54,12 @@
  * result to the console.
  */
 
- // Your code here
+code.join('');
+console.log(code);
+
+
+
+
+
+
+
